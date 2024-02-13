@@ -1,0 +1,168 @@
+@font-face {
+	font-family: vinay;
+	src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+body {
+	/* display: flex;
+    justify-content: center; */
+	margin: 0%;
+	padding: 0;
+	font-family: vinay;
+}
+
+.main-container {
+	display: flex;
+	margin-top: 10rem;
+	width: 100%;
+	box-shadow: 2px 6px 2px 2px rgba(0, 0, 0, 0, 0.15);
+	justify-content: center;
+    background: white;
+	/* align-items: center; */
+	/* height: 100vh; */
+}
+
+.leftside {
+	background-image: linear-gradient(
+		to bottom,
+		rgb(167, 147, 248),
+		hsla(241, 81%, 54%, 0.8)
+	);
+	border-radius: 30px;
+	height: 500px;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.rightside {
+	height: 500px;
+	width: 400px;
+	padding-left: 40px;
+    /* background: lightgray; */
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 30px;
+}
+
+.head {
+	font-size: 20px;
+	text-align: center;
+	margin: 40px 0 0 0;
+	color: hsl(221, 100%, 96%);
+}
+.head-sub {
+	color: hsl(221, 100%, 96%);
+	font-size: 40px;
+	font-weight: 600;
+	margin: 10px 0 10px 0;
+}
+
+.round {
+	border-radius: 50%;
+	/* border-radius: 50%; */
+	width: 200px;
+	height: 200px;
+	background: hsla(256, 72%, 46%, 1);
+	margin-top: 30px;
+	color: hsl(221, 100%, 96%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/* text-align: center; */
+}
+.round-big {
+	font-size: 5rem;
+	font-weight: 800;
+}
+.round-small {
+	font-size: 1rem;
+}
+
+.result-text {
+	font-size: 1.28rem;
+	max-width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	color: hsl(221, 100%, 96%);
+}
+
+.round {
+	color: hsl(221, 100%, 96%);
+}
+
+.test-result1 {
+	display: flex;
+    width: 300px;
+	justify-content: space-between;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: hsl(0, 100%, 67%);
+	background-color: hsla(0, 100%, 67%, 0.09);
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.mark {
+	margin-top: 20px;
+    font-size: 20px;
+    color: black;
+}
+.outoff{
+    color: hsl(224, 30%, 27%);
+}
+
+.test-result2 {
+	display: flex;
+	justify-content: space-between;
+    width: 300px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: hsl(39, 100%, 56%);
+	background-color: hsla(39, 100%, 67%, 0.09);
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.test-result3 {
+	display: flex;
+	justify-content: space-between;
+    width: 300px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: hsl(166, 100%, 37%);
+	background-color: hsla(166, 100%, 67%, 0.09);
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.test-result4 {
+	display: flex;
+	justify-content: space-between;
+    width: 300px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: hsl(234, 85%, 45%);
+	background-color: hsla(234, 100%, 67%, 0.09);
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.inner {
+	display: flex;
+}
+.reaction {
+	margin-left: 5px;
+}
+
+.con{
+    padding: 1.125rem;
+    width: 350px;
+    border-radius: 100px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 700;
+    animation: slide-in 850ms ease-out forwards;
+}

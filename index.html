@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- This meta tag ensures proper rendering on different devices -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/images/favicon-32x32.png"
+		/>
+		<!-- Link to the favicon -->
+
+		<title>Frontend Mentor | Results summary component</title>
+
+		<!-- Inline styles for attribution, you can customize or remove them -->
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+		<link rel="stylesheet" href="./style.css" />
+		<!-- External stylesheet link -->
+	</head>
+	<body>
+		<div class="main-container">
+			<div class="leftside">
+				<h3 class="head">Your Result</h3>
+				<div class="round">
+					<span class="round-big">76</span>
+					<span class="round-small">of 100</span>
+				</div>
+				<p class="head-sub">Great</p>
+				<p class="result-text">
+					You scored higher than 65% of the people who have taken these tests.
+				</p>
+			</div>
+
+			<!-- Summary section -->
+			<div class="rightside">
+				<div class="summary">
+					<h2>Summary</h2>
+
+					<!-- Individual test results -->
+					<div class="test-result1">
+						<div class="inner">
+							<img src="./assets/images/icon-reaction.svg" alt="reaction" />
+							<h3 class="reaction">Reaction</h3>
+						</div>
+						<p class="mark">80 <span class="outoff">/ 100</span></p>
+					</div>
+
+					<div class="test-result2">
+						<div class="inner">
+							<img src="./assets/images/icon-memory.svg" alt="Memory" />
+							<h3 class="reaction">Memory</h3>
+						</div>
+						<p class="mark">92 <span class="outoff">/ 100</span></p>
+					</div>
+
+					<div class="test-result3">
+						<div class="inner">
+							<img src="./assets/images/icon-verbal.svg" alt="verbal" />
+							<h3 class="reaction">Verbal</h3>
+						</div>
+						<p class="mark">61 <span class="outoff">/ 100</span></p>
+					</div>
+
+					<div class="test-result4">
+            <div class="inner">
+              <img src="./assets/images/icon-visual.svg" alt="Visual" />
+						<h3 class="reaction">Visual</h3>
+            </div>
+						<p class="mark">72 <span class="outoff">/ 100</span></p>
+					</div>
+				</div>
+				<!-- Continue button -->
+				<button class="con">Continue</button>
+			</div>
+		</div>
+
+		<!-- Attribution section -->
+		<!--
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Vinay basargekar</a>.
+  </div>
+  --></body>
+</html>
