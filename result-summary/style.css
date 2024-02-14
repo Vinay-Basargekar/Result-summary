@@ -17,7 +17,6 @@ body {
 	width: 100%;
 	box-shadow: 2px 6px 2px 2px rgba(0, 0, 0, 0, 0.15);
 	justify-content: center;
-    background: white;
 	/* align-items: center; */
 	/* height: 100vh; */
 }
@@ -40,9 +39,8 @@ body {
 	height: 500px;
 	width: 400px;
 	padding-left: 40px;
-    /* background: lightgray; */
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-    border-radius: 30px;
+	box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+	border-radius: 30px;
 }
 
 .head {
@@ -94,7 +92,7 @@ body {
 
 .test-result1 {
 	display: flex;
-    width: 300px;
+	width: 300px;
 	justify-content: space-between;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -106,17 +104,17 @@ body {
 
 .mark {
 	margin-top: 20px;
-    font-size: 20px;
-    color: black;
+	font-size: 20px;
+	color: black;
 }
-.outoff{
-    color: hsl(224, 30%, 27%);
+.outoff {
+	color: hsl(224, 30%, 27%);
 }
 
 .test-result2 {
 	display: flex;
 	justify-content: space-between;
-    width: 300px;
+	width: 300px;
 	padding-left: 20px;
 	padding-right: 20px;
 	color: hsl(39, 100%, 56%);
@@ -128,7 +126,7 @@ body {
 .test-result3 {
 	display: flex;
 	justify-content: space-between;
-    width: 300px;
+	width: 300px;
 	padding-left: 20px;
 	padding-right: 20px;
 	color: hsl(166, 100%, 37%);
@@ -140,7 +138,7 @@ body {
 .test-result4 {
 	display: flex;
 	justify-content: space-between;
-    width: 300px;
+	width: 300px;
 	padding-left: 20px;
 	padding-right: 20px;
 	color: hsl(234, 85%, 45%);
@@ -156,13 +154,13 @@ body {
 	margin-left: 5px;
 }
 
-.con{
-    padding: 1.125rem;
-    width: 350px;
-    border-radius: 100px;
-    background-color: hsl(224, 30%, 27%);
-    color: white;
-    font-size: 1.125rem;
-    font-weight: 700;
-    animation: slide-in 850ms ease-out forwards;
+.con {
+	padding: 1.125rem;
+	width: 350px;
+	border-radius: 100px;
+	background-color: hsl(224, 30%, 27%);
+	color: white;
+	font-size: 1.125rem;
+	font-weight: 700;
+	animation: slide-in 850ms ease-out forwards;
 }
